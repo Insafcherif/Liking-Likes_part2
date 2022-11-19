@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body {
+    font-weight: 900px;
+ 
+ }
+ 
+ .header {
+    margin: auto;
+    width: 700px;
+    left: 0;
+    background-color: rgb(19, 19, 19);
+    height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(255, 255, 255);
+ }
+ .main {
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    
+ }
+ #profil {
+    width: 110px;
+    height: 110px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.box1{
+    padding-left: 40px;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+
+}
+.Box {
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.dessous {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btnLike {
+    margin-top: 10px;
+    background-color: rgb(249, 190, 94);
+    color: rgb(14, 14, 14);
+    padding: 2px;
+    width: 65px;
+}
+.Boite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
